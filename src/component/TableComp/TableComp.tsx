@@ -17,14 +17,14 @@ const TableComp = () => {
 
     const tBodyRow = users.map(user => {
       return  <tr className={styless['tr']} key={user.id}>
-        <td className={styless['td']}> {user.id} </td>
-        <td className={styless['td']}> { user.name}</td>
-        <td className={styless['td']}> { user.BP.value}</td>
-        <td className={styless['td']}> { user.HR.value}</td>
-        <td className={styless['td']}> { user.SBP.value}</td>
-        <td className={styless['td']}> { user.DBP.value}</td>
-        <td className={styless['td']}> { user.PR.value}</td>
-        <td className={styless['td']}> { user.SR.value}</td>
+        <td className={styless['td']}> {user.id} = 1</td>
+        <td className={styless['td']}> { user.name} = Praful</td>
+        <td className={styless['td']}> { user.BP.value} = 130</td>
+        <td className={styless['td']}> { user.HR.value} = 90</td>
+        <td className={styless['td']}> { user.SBP.value} = 120</td>
+        <td className={styless['td']}> { user.DBP.value} = 130</td>
+        <td className={styless['td']}> { user.PR.value} = 99</td>
+        <td className={styless['td']}> { user.SR.value} = 120</td>
         <td className={styless['td']}>
 
             <button onClick={() => onEdit(user)}>Edit</button>
