@@ -7,7 +7,7 @@ const TableComp = () => {
   
 
     const {users, changeView, changeUserData} = useContext(HealthDataContext);
-    console.log('healtContex users',users);
+    console.log('healtContex users1',users);
 
     const onEdit = (userDATA: stateType) => {
         console.log('userData edit', userDATA);
